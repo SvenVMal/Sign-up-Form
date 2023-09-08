@@ -1,0 +1,131 @@
+@font-face {
+    font-family: NorseBold;
+    src: url(/font/Norse-Bold.otf);
+}
+
+:root {
+    --button-color:  #596D48;
+    --input-border-color: #E5E7EB;
+    --mainbg-color: #f9fafb;
+}
+
+
+body {
+    margin: 0;
+    background-color: var(--mainbg-color);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+section.top,
+section.bottom {
+    margin: 3rem;
+}
+
+section.form-section {
+    background-color: white;
+    box-shadow: 1px 3px 7px 0px #88888861;
+}
+
+.test {
+    font-size: 1rem;
+}
+
+input {
+    border: 1px solid;
+    border-color: var(--input-border-color);
+    border-radius: 2px;
+    height: 1.5rem;
+}
+
+input:focus {
+    outline: none;
+    border-color: blue;
+    box-shadow: 1px 1px 4px #888;
+}
+
+input:invalid {
+    border-color: red;}
+
+.form-section > form,
+.form-section > h2 {
+    margin: 3rem;
+}
+
+
+section.bottom > button {
+    background-color: var(--button-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.log-in {
+    color: var(--button-color);
+}
+
+.test1 {
+    display: flex;
+}
+
+.test {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
+.test > label {
+    font-size: 0.85rem;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+}
+
+
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+    width: 40%;
+    background-image: url(/img/halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: cover;
+    background-position: left;
+
+}
+
+.logo {
+    margin-top: 10rem;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 150px;
+    justify-content: center;
+}
+
+.logo img {
+    width: 130px;
+    height: 130px;
+}
+
+.logo-font {
+    font-family: norseBold;
+    font-size: 3rem;
+    width: 100px;
+    color: white;
+}
+
+.credit {
+    color: white;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.credit a {
+    color: white;
+}
